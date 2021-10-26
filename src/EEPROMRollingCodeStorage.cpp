@@ -16,3 +16,12 @@ uint16_t EEPROMRollingCodeStorage::nextCode() {
 #endif
 	return code;
 }
+
+
+	uint16_t  EEPROMRollingCodeStorage::currentCode() {
+		return 0;
+	}
+
+	uint16_t  EEPROMRollingCodeStorage::initCode(uint16_t initialvalue) {
+		return 0;
+	}

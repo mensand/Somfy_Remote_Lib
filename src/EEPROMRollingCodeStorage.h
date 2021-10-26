@@ -16,4 +16,8 @@ private:
 public:
 	EEPROMRollingCodeStorage(int address);
 	uint16_t nextCode() override;
+
+	uint16_t currentCode() override;
+
+	uint16_t initCode(uint16_t initialvalue) override;
 };
